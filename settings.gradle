@@ -1,0 +1,2 @@
+rootProject.name='QuanLySV'
+include ':app'

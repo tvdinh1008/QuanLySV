@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|withText"
+        android:orderInCategory="120"
+        android:title="search"/>
+    <item
+        android:id="@+id/action_add_student"
+        android:orderInCategory="140"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_student"
+        android:title="Thêm mới sinh viên"/>
+</menu>
