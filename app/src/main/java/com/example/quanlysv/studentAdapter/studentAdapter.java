@@ -106,7 +106,7 @@ public class studentAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         s.setBirthday(student.getBirthday());
         s.setSex(student.getSex());
         s.setFavorites(student.getFavorites());
-        notifyItemChanged(pos,student);
+        notifyItemChanged(pos,s);
     }
     public Student getItem(int pos)
     {

@@ -236,8 +236,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void showDetailStudent(int pos,int stt)
     {
-        //Student student=adapter.getItem(pos);
-        Student student=items.get(pos);
+        Student student=adapter.getItem(pos);
+
         Bundle bundle=new Bundle();
         bundle.putInt("position",pos);
         bundle.putInt("status",stt);
