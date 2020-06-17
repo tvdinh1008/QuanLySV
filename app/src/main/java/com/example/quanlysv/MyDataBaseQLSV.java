@@ -48,11 +48,11 @@ public class MyDataBaseQLSV extends SQLiteOpenHelper {
         try {
             db.execSQL(QueryCreateTB);
             db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Văn Định','20173017','10/08/1999','Kim Sơn Ninh Bình',0,'sport,readbook')");
-            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Nguyễn Thị Hoài','20213017','18/02/2001','Kim Sơn Ninh Bình',0,'sport,travel')");
-            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Nguyễn Thị Huyền','20173013','09/02/1999','Kim Sơn Ninh Bình',0,'sport,readbook')");
+            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Nguyễn Thị Hoài','20213017','18/02/2001','Kim Sơn Ninh Bình',1,'sport,travel')");
+            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Nguyễn Thị Huyền','20173013','09/02/1999','Kim Sơn Ninh Bình',1,'sport,readbook')");
             db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Minh Châu','20173018','12/08/1999','Hạ Long',0,'sport,readbook')");
             db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Nguyễn Văn Đại','20173019','10/03/1999','Kim Sơn Ninh Bình',0,'sport,travel,readbook')");
-            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Thị Lý','20173010','22/12/1999','Kim Sơn Ninh Bình',0,'sport,readbook')");
+            db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Thị Lý','20173010','22/12/1999','Kim Sơn Ninh Bình',1,'sport,readbook')");
             db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Văn Hoàng','20173033','16/08/2000','Kim Sơn Ninh Bình',0,'sport,readbook')");
             db.execSQL("insert into tbQLSV(name,mssv,birthday,address,sex,favorites) values('Trần Văn Khoa','20173014','10/08/1999','Kim Sơn Ninh Bình',0,'sport,travel,readbook')");
 
